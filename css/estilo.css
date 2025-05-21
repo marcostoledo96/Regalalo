@@ -1,0 +1,32 @@
+*{
+    color:black;
+    margin: 10px;
+    /*establece limites en los 4 lados*/
+    padding: 5px;
+    /*Establece el espacio de relleno*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*tipo letra*/
+}
+
+h1 {
+    color:red;
+    font-size: 2em;
+    /*tamaño letra*/
+}
+
+.subtitulo /*(clase)*/ {
+    background-color: aqua; 
+    /*Color de fondo*/
+}
+
+#texto /*id*/ {
+    text-align: center;
+    /*alineacion*/
+}
+
+/*Span: en linea
+<p>Yo estoy <span style="color: blue;">realizando </span> la prueba</p> */
+
+/* Div: en bloque
+<div style="background-color: blueviolet;"> Texto completo con div</div> */
+ 
