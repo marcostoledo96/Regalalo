@@ -1,17 +1,44 @@
 *{
     color:black;
-    margin: 10px;
+    margin: 0px;
     /*establece limites en los 4 lados*/
-    padding: 5px;
+    padding: 0px;
     /*Establece el espacio de relleno*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*tipo letra*/
 }
 
-h1 {
+header{
+    background-color: red;
+    margin: 0px;
+    text-align: left;
+    border: solid black;
+}
+
+.h1-index{
     color:red;
+    font-size: 10em;
+    text-align: center;
+}
+
+.titulo {
+    color:white;
     font-size: 2em;
-    /*tamaño letra*/
+    text-align: left;
+    font-family:'Playpen Sans Deva';
+    width: 100%;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    position: relative;
+    display: inline;
+}
+
+.logo{
+    padding-left: 60%;
+    padding-top: 1.5em;
+    text-align: center;
+    position: relative;
+    display: inline;
 }
 
 .subtitulo /*(clase)*/ {
@@ -30,3 +57,18 @@ h1 {
 /* Div: en bloque
 <div style="background-color: blueviolet;"> Texto completo con div</div> */
  
+main{
+    border: 10px;
+    padding: 50px;
+}
+
+footer{
+    border: 10px;
+    padding: 50px;
+}
+
+#listado{
+    margin: 1%;
+    padding: 2%;
+    border: solid black;
+}
